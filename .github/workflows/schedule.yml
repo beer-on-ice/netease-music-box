@@ -1,5 +1,7 @@
 name: Update gist
 on:
+  watch:
+    types: started
   push:
     branches:
       - master
